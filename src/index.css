@@ -16,9 +16,11 @@
 body {
   padding: 20px;
   margin: 0 auto;
-  display: flex;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Datatype", monospace;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
 @media (prefers-color-scheme: light) {
