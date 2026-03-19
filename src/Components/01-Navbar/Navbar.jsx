@@ -8,7 +8,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="max-w-[1110px] mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
+    <nav className="mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
       {/* Left */}
       <div className="flex justify-center items-center gap-4">
         {/* Menu Logo */}
