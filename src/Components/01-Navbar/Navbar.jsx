@@ -8,7 +8,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="m-w-[1110px] mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
+    <nav className="max-w-[1110px] mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
       {/* Left */}
       <div className="flex justify-center items-center gap-4">
         {/* Menu Logo */}
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         {/* Menu Logo Components */}
         <div
-          className={`space-y-6 absolute left-5 top-20 transition-all duration-1000 backdrop-blur-lg bg-black/30 ${open? "opacity-100 visible" : "opacity-0 invisible"}`}
+          className={`space-y-6 absolute left-5 top-20 transition-all duration-1000 backdrop-blur-lg bg-black/30 ${open? "opacity-100 visible" : "opacity-0 invisible"} border p-5 rounded-lg`}
         >
           <ul className="flex lg:hidden flex-col gap-3 justify-center items-center">
             <li className="">
