@@ -8,7 +8,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
+    <nav className="max-w-277.5 mx-auto border-2 p-4 flex justify-between items-center sticky top-0 z-10">
       {/* Left */}
       <div className="flex justify-center items-center gap-4">
         {/* Menu Logo */}
@@ -58,10 +58,10 @@ const Navbar = () => {
         </h1>
         <ul className="hidden lg:flex gap-3 justify-center items-center">
           <li className="">
-            <a href="#about-me">About Me</a>
+            <a href="#about-me">About</a>
           </li>
           <li className="">
-            <a href="#technical-skills">Technical Skills</a>
+            <a href="#technical-skills">Skills</a>
           </li>
           <li className="">
             <a href="#projects">Projects</a>
