@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Banner = () => {
 
     return (
-        <div className='max-w-277.5 mx-auto flex flex-col-reverse md:flex-row justify-between items-center mt-5 md:mt-20 p-4'>
+        <div id='about' className='max-w-277.5 mx-auto flex flex-col-reverse md:flex-row justify-between items-center mt-5 md:mt-20 p-4'>
             {/* Left */}
             <div className='text-center md:text-start mt-5 md:mt-0'>
                 <h1 className='text-2xl md:text-5xl font-bold whitespace-pre-line'>

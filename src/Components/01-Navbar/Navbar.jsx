@@ -28,13 +28,15 @@ const Navbar = () => {
         >
           <ul className="flex lg:hidden flex-col gap-3 justify-center items-center">
             <li className="">
-              <a href="#about-me">About</a>
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#about">About</a></button>
+              
             </li>
             <li className="">
-              <a href="#technical-skills">Skills</a>
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#skills">Skills</a></button>
+              
             </li>
             <li className="">
-              <a href="#projects">Projects</a>
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#projects">Projects</a></button>
             </li>
           </ul>
           <div className="flex md:hidden flex-row gap-3 justify-center items-center">
@@ -57,15 +59,17 @@ const Navbar = () => {
           Parvez Nur Shadhin
         </h1>
         <ul className="hidden lg:flex gap-3 justify-center items-center">
-          <li className="">
-            <a href="#about-me">About</a>
-          </li>
-          <li className="">
-            <a href="#technical-skills">Skills</a>
-          </li>
-          <li className="">
-            <a href="#projects">Projects</a>
-          </li>
+         <li className="">
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#about">About</a></button>
+              
+            </li>
+            <li className="">
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#skills">Skills</a></button>
+              
+            </li>
+            <li className="">
+              <button className="btn btn-ghost rounded-lg hover:bg-transparent"><a href="#projects">Projects</a></button>
+            </li>
         </ul>
       </div>
       {/* Right */}
